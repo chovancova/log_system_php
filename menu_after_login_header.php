@@ -29,7 +29,7 @@
     <!-- ================== END PAGE LEVEL STYLE ================== -->
 
     <!-- ================== BEGIN BASE JS ================== -->
-    <script src="assets/plugins/pace/pace.min.js"></script>
+
     <!-- ================== END BASE JS ================== -->
 </head>
 <body>
@@ -73,7 +73,7 @@
 
 
                 <li class="dropdown navbar-user">
-                    <a href="signout.php;">Logout</a>
+                    <a href="signout.php">Logout</a>
                 </li>
             </ul>
             <!-- end header navigation right -->
@@ -97,7 +97,7 @@
                 <li class="nav-profile">
                     <a href="#" data-toggle="nav-profile">
                         <div class="image">
-                            <img src="assets/img/user.jpg" alt=""/>
+                            <img src="assets/img/user-12.jpg" alt=""/>
                         </div>
                         <div class="info">
                             <small>Log system user</small>

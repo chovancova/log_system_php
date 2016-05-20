@@ -2,6 +2,9 @@
 //signout.php
 include 'connect.php';
 include 'header.php';
+include 'menu_after_login_header.php';
+include 'header_log.php';
+
  
 echo '<h2>Sign Out</h2>';
  
@@ -20,3 +23,5 @@ else
     echo 'You are not log in <a href="signin.php">Login</a>?';
 }
  include 'footer.php';
+
+include 'menu_after_login_footer.php';

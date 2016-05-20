@@ -35,6 +35,7 @@ include 'menu_after_login_header.php';
 //            log_date = \" . mysql_real_escape_string($_GET['datepicker']);
 include 'header_log.php';
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+    echo ' <div class="col-md-6">';
     echo '<form class="form-viewLogEntry" role="form" method="post" action="">
         <h2 class="form-viewLogEntry-heading">View Log Entry</h2>
         </br>
@@ -44,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     </br>
         <button class="btn btn-lg btn-primary btn-block" type="submit">View Log entries</button>
       </form>';
+    echo ' </div>';
 } else {
     $errors = array();
     if (!isset($_POST['datepicker'])) {
