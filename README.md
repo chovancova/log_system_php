@@ -2,8 +2,8 @@ The aim is to create a web application where the user can log in using their wor
 <ul>
 <li>Date and Time - when the activity is performed 
 <li>the number of hours and minutes - How long lasts a particular activity
-<li>a brief description on what worked
-Name of the user who created this record
+<li>a brief description of the activity
+<li>Name of the user who created this record
 </ul>
 Logged in user can only see your records, you will be able to browse them and edit. 
 Records should be able to navigate through the days, weeks or months. 
