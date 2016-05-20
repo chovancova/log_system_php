@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ba64921-3ab7-413a-ab10-bee589741c71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addLogEntry.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signin.php" afterPath="$PROJECT_DIR$/signin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addLogEntry.php" afterPath="$PROJECT_DIR$/addLogEntry.php" />
     </list>
     <ignored path="log_system_php_reactjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,13 +83,13 @@
       <file leaf-file-name="addLogEntry.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addLogEntry.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
               <folding>
-                <marker date="1463738537224" expanded="true" signature="150:1101" placeholder="..." />
-                <marker date="1463738537224" expanded="true" signature="1746:1883" placeholder="INSERT INTO log_entry" />
-                <marker date="1463738537224" expanded="true" signature="1746:2173" placeholder="INSERT INTO log_entry" />
-                <marker date="1463738537224" expanded="true" signature="1746:2210" placeholder="INSERT INTO log_entry" />
+                <marker date="1463740018421" expanded="true" signature="765:1757" placeholder="..." />
+                <marker date="1463740018421" expanded="true" signature="2404:2541" placeholder="INSERT INTO log_entry" />
+                <marker date="1463740018421" expanded="true" signature="2404:2833" placeholder="INSERT INTO log_entry" />
+                <marker date="1463740018421" expanded="true" signature="2404:2870" placeholder="INSERT INTO log_entry" />
               </folding>
             </state>
           </provider>
@@ -277,12 +273,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463731091628</updated>
-      <workItem from="1463731092848" duration="7963000" />
+      <workItem from="1463731092848" duration="8971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7963000" />
+    <option name="totallyTimeSpent" value="8971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -338,14 +334,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -400,15 +388,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addLogEntry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="74" column="11" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
           <folding>
-            <marker date="1463738537224" expanded="true" signature="150:1101" placeholder="..." />
-            <marker date="1463738537224" expanded="true" signature="1746:1883" placeholder="INSERT INTO log_entry" />
-            <marker date="1463738537224" expanded="true" signature="1746:2173" placeholder="INSERT INTO log_entry" />
-            <marker date="1463738537224" expanded="true" signature="1746:2210" placeholder="INSERT INTO log_entry" />
+            <marker date="1463740018421" expanded="true" signature="765:1757" placeholder="..." />
+            <marker date="1463740018421" expanded="true" signature="2404:2541" placeholder="INSERT INTO log_entry" />
+            <marker date="1463740018421" expanded="true" signature="2404:2833" placeholder="INSERT INTO log_entry" />
+            <marker date="1463740018421" expanded="true" signature="2404:2870" placeholder="INSERT INTO log_entry" />
           </folding>
         </state>
       </provider>
