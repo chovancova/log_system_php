@@ -1,6 +1,5 @@
 <?php
 
-//signin.php
 include 'connect.php';
 include 'header.php';
 
