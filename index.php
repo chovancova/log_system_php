@@ -5,6 +5,9 @@ include 'header.php';
 
 
 
+echo "Log System";
 
-echo '</table>';
+
+
+
 include 'footer.php';

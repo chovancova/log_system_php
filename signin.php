@@ -13,14 +13,14 @@ if (isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true) {
         echo '<form class="form-signin" role="form" method="post" action="">
                 <h2 class="form-signin-heading">Login</h2>
                 <label for="inputText" class="sr-only">E-Mail</label>
-                <input type="text" name="user_name" id="user_name" class="form-control" placeholder="user_name" required autofocus>
+                <input type="text" name="user_name" id="user_name" class="form-control" placeholder="E-Mail" required autofocus>
                 <label for="inputPassword" class="sr-only">Password</label>
-                 <input type="password" name="user_pass" id="user_pass" class="form-control" placeholder="password" required>
+                 <input type="password" name="user_pass" id="user_pass" class="form-control" placeholder="Password" required>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       </form>';
         // echo '<div class="container1"></div>';
     } else {
-        /* formulár bol vyslaný, budeme spracovávať dáta v troch krokoch:
+        /* formulár bol odoslany, budeme spracovávať dáta v troch krokoch:
          * 1. Skontrolujte dáta 
          * 2. Necha užívateľa doplňit zle polia (v prípade potreby)
          * 3. ak je vsetko správne odošle odpoveď

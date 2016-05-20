@@ -24,6 +24,8 @@
                     if ($_SESSION['signed_in']) {
                         echo 'Hello <b>' . htmlentities($_SESSION['user_name'])
                         . '</b>. <a class="item" href="signout.php">Sign out</a>';
+
+                        echo '</b>. <a class="item" href="addLogEntry.php">Add Log entry</a>';
                     } else {
                         echo '<a class="item" href="signin.php">Sign in</a> '
                         . 'alebo <a class="item" href="signup.php">Sign up</a>';
