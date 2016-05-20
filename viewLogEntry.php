@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 
 
 
-                        echo ' <div class="col-md-10">
+                        echo ' <div class="col-md-12">
                         <div class="panel panel-inverse">
                             <div class="panel-heading">
                                 <div class="panel-heading-btn">
@@ -113,8 +113,8 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                                     <thead>
                                           <tr>
                                                <th width="100px" nowrap>Log date </th>
-                                                <th width="100px" nowrap>log_time</th>
-                                                <th width="100px" nowrap>log_description</th>
+                                                <th width="100px" nowrap>Log Time</th>
+                                                <th width="100px" nowrap>Log Description</th>
                                                 <th width="100px" nowrap>Action</th>
                                           </tr>\';
                                     </thead>
