@@ -1,5 +1,4 @@
-<!doctype html>
-<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>jQuery UI Datepicker - Format date</title>
@@ -19,5 +18,3 @@
 <body>
 
 
-<?php
-include 'connect.php';

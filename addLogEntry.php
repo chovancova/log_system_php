@@ -1,4 +1,7 @@
 <?php
+
+
+include 'menu_after_login_header.php';
 include 'header_log.php';
 
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
@@ -40,12 +43,12 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         }
         echo '</ul>';
     } else {
-
+        $date_log = date( 'Y-m-d',strtotime( $_POST['datepicker']));
 
         $sql = "INSERT INTO
                     log_entry(log_date, log_time, log_description, log_id_user)
                 VALUES(
-                    '" . mysql_real_escape_string($_POST['datepicker']) . "',
+                    '" . mysql_real_escape_string($date_log) . "',
                     '" . mysql_real_escape_string($_POST['log_time']) . "',
                     '" . mysql_real_escape_string($_POST['log_description']) . "',
                     '" . mysql_real_escape_string($_SESSION['user_id']) . "'
@@ -63,3 +66,5 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         ///
     }
 }
+
+include 'menu_after_login_footer.php';
