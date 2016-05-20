@@ -136,7 +136,6 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                             echo($row['log_description']);
                             echo '</td>';
                             echo '<td>';
-                            echo '<button type="button" ">Edit</button>';
                             echo('<button type="button" onclick="deleteLog(' . $row['id_log_entry'] . ');">Delete</button>');
                             echo '</td>';
                             echo '</tr>';

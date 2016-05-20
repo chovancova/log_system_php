@@ -1,11 +1,10 @@
 <?php
 //signout.php
-include 'connect.php';
 include 'header.php';
 include 'menu_after_login_header.php';
 include 'header_log.php';
 
- 
+
 echo '<h2>Sign Out</h2>';
  
 //skontroluje uživateľa
@@ -20,7 +19,7 @@ if($_SESSION['signed_in'] == true)
 }
 else
 {
-    echo 'You are not log in <a href="signin.php">Login</a>?';
+    echo 'You are not log in <a href="login.php">Login</a>?';
 }
  include 'footer.php';
 
