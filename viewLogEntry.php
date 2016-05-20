@@ -1,6 +1,7 @@
 <?php
 include 'header_log.php';
 
+
 //Najprv vyberie log entry na základe $ _GET ['cat_id']
 // WHERE
 //            log_user_id = \" . mysql_real_escape_string($_SESSION['user_id']);
@@ -86,8 +87,8 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                             echo ($row['log_description']);
                             echo '</td>';
                            echo '<td>';
-                            echo '<button type="button">Edit</button>';
-                            echo '<button type="button">Delete</button>';
+                            echo '<button type="button" ">Edit</button>';
+                            echo( '<button type="button" onclick="deleteLog(' . $row['id_log_entry'] . ');">Delete</button>');
                             echo '</td>';
                             echo '</tr>';
                         }
